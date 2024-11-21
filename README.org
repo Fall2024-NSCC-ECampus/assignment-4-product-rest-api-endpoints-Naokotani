@@ -1,0 +1,17 @@
+#+title: Product Rest Api
+
+* Create
+Method: POST Path: http://localhost:8080/api/v1/product
+[[file:images/create.png]]
+* Read One
+Method: GET Path: http://localhost:8080/api/v1/product/{id}
+[[file:images/get_one.png]]
+* Read All
+Method: GET Path: http://localhost:8080/api/v1/product
+[[file:images/get_all.png]]
+* Update
+Method: PUT Path: http://localhost:8080/api/v1/product/{id}
+[[file:images/update.png]]
+* Destroy
+Method: DELETE Path: http://localhost:8080/api/v1/product/{id}
+[[file:images/delete.png]]
